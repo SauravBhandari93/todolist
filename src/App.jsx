@@ -1,10 +1,11 @@
-import React from 'react'
-
-const App = () => {
-    return (
-        <div>
-            App component
-        </div>
-    )
-};
-export default App;
+import "./App.scss";
+import Header from "./components/Header";
+import Content from "./components/Content";
+export default function App() {
+  return (
+    <div className="App">
+      <Header />
+      <Content />
+    </div>
+  );
+}
